@@ -1,0 +1,90 @@
+body{
+    background-image: url(WAMPAM.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+
+#container{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: hsl(0, 0%, 100%, 0.9);
+}
+
+#org{
+    padding: 5vw 5vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: 7vw;
+    font-family: chiller,'Courier New', Courier, monospace;
+    color: rgb(183, 103, 5);
+    text-align: center;
+    
+}
+
+#org:hover{
+    color: hsl(33, 95%, 50%);
+    text-shadow: 0 0 10px hsl(33, 95%, 50%), 0 0 20px hsl(33, 95%, 50%);
+    transition: color 0.5s linear, text-shadow 0.5s linear;
+}
+
+#content{
+   margin-top: 42dvh;
+   margin-bottom: 14dvh;
+}
+
+.welcome{
+    margin: 0;
+    font-size: 9vw;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(183, 103, 5);
+    text-align: center;
+    text-decoration: none;
+}
+
+#WAWPAM{
+     color: hsl(33, 95%, 24%);
+}
+
+#prompt-container {
+    margin: auto;
+    width: 70dvw;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center;
+    margin-top: 20px; */
+}
+
+#recieve{
+    margin-bottom: 2dvh;
+}
+
+
+.pro1{
+  height: 3dvh;
+  font-size: 5dvw;
+  padding: 3dvw 3dvh;
+  color: rgb(255, 123, 0);
+}
+
+#prompt{
+  color: rgb(255, 123, 0);
+}
+#submit{
+    height: auto;
+    margin: auto;
+    width: 23dvh;
+    background-color: white;
+    border-radius: 1px;
+    color: hsl(33, 95%, 24%);
+    border: 1px solid hsl(33, 95%, 24%);
+}
